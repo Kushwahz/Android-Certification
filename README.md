@@ -10,7 +10,7 @@ Tracking my preparation for this certification - **[Associate Android Developer]
 - [x] Welcome to the course
 - [x] Android Studio and Hello World
 - [x] First Interactive UI
-- [ ] The Layout Editor
+- [x] The Layout Editor
 - [ ] Text and Scrolling Views
 - [ ] Learn to help yourself
 - [ ] Activities and Intents
