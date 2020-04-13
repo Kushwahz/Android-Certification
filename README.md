@@ -11,8 +11,8 @@ Tracking my preparation for this certification - **[Associate Android Developer]
 - [x] Android Studio and Hello World
 - [x] First Interactive UI
 - [x] The Layout Editor
-- [ ] Text and Scrolling Views
-- [ ] Learn to help yourself
+- [x] Text and Scrolling Views
+- [x] Learn to help yourself
 - [ ] Activities and Intents
 - [ ] Activity Lifecycle and State
 - [ ] Implicit Intents
