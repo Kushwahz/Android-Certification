@@ -13,12 +13,12 @@ Tracking my preparation for this certification - **[Associate Android Developer]
 - [x] The Layout Editor
 - [x] Text and Scrolling Views
 - [x] Learn to help yourself
-- [ ] Activities and Intents
-- [ ] Activity Lifecycle and State
-- [ ] Implicit Intents
-- [ ] The Debugger
-- [ ] Unit Test
-- [ ] Support Libraries
+- [X] Activities and Intents
+- [X] Activity Lifecycle and State
+- [X] Implicit Intents
+- [X] The Debugger
+- [X] Unit Test
+- [X] Support Libraries
 - [ ] Clickable Images
 - [ ] Input Controls
 - [ ] Menus and Pickers
