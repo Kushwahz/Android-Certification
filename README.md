@@ -19,9 +19,9 @@ Tracking my preparation for this certification - **[Associate Android Developer]
 - [X] The Debugger
 - [X] Unit Test
 - [X] Support Libraries
-- [ ] Clickable Images
-- [ ] Input Controls
-- [ ] Menus and Pickers
+- [X] Clickable Images
+- [X] Input Controls
+- [X] Menus and Pickers
 - [ ] User Navigation
 - [ ] RecyclerView
 - [ ] Drawables, Styles and Themes
