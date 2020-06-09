@@ -22,8 +22,8 @@ Tracking my preparation for this certification - **[Associate Android Developer]
 - [X] Clickable Images
 - [X] Input Controls
 - [X] Menus and Pickers
-- [ ] User Navigation
-- [ ] RecyclerView
+- [X] User Navigation
+- [X] RecyclerView
 - [ ] Drawables, Styles and Themes
 - [ ] Cards And Colors
 - [ ] Adaptive Layouts
