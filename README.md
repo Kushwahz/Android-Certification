@@ -24,12 +24,12 @@ Tracking my preparation for this certification - **[Associate Android Developer]
 - [X] Menus and Pickers
 - [X] User Navigation
 - [X] RecyclerView
-- [ ] Drawables, Styles and Themes
-- [ ] Cards And Colors
-- [ ] Adaptive Layouts
-- [ ] Espresso for UI Testing
-- [ ] AsyncTask
-- [ ] AsyncTask and AsyncTaskLoader
+- [X] Drawables, Styles and Themes
+- [X] Cards And Colors
+- [X] Adaptive Layouts
+- [X] Espresso for UI Testing
+- [X] AsyncTask
+- [X] AsyncTask and AsyncTaskLoader
 - [ ] Broadcast Reciever
 - [ ] Notifications
 - [ ] The Alarm Manager
