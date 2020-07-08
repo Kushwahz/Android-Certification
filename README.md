@@ -30,9 +30,9 @@ Tracking my preparation for this certification - **[Associate Android Developer]
 - [X] Espresso for UI Testing
 - [X] AsyncTask
 - [X] AsyncTask and AsyncTaskLoader
-- [ ] Broadcast Reciever
-- [ ] Notifications
-- [ ] The Alarm Manager
+- [X] Broadcast Reciever
+- [X] Notifications
+- [X] The Alarm Manager
 - [ ] JobScheduler
 - [ ] Shared Preferences
 - [ ] App Settings
