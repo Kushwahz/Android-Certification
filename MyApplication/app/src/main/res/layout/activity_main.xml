@@ -4,43 +4,138 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTintMode="src_atop"
+    android:backgroundTint="#686E4949"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button_toast"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="@string/app_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/toast"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:fitsSystemWindows="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@android:color/white"></androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Android CodeLabs"
+        android:textSize="20dp"
         android:textStyle="bold"
-        android:onClick="showToast"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView">
 
-    <Button
-        android:id="@+id/button_count"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="@string/count"
-        android:textStyle="bold"
-        android:onClick="countUp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:padding="5dp">
 
-    <TextView
-        android:id="@+id/show_count"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="#FFFF00"
-        android:gravity="center"
-        android:text="@string/_0"
-        android:textSize="160sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button_count"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_toast" />
+            <Button
+                android:id="@+id/btn_topicA"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="start|center_vertical"
+                android:text="1 | Android Studio and Hello World" />
+
+            <Button
+                android:id="@+id/btn_topicB"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="start|center_vertical"
+                android:onClick="ModuleSecond"
+                android:text="2 | Android Activities &amp; Intents" />
+
+            <Button
+                android:id="@+id/btn_topicC"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="start|center_vertical"
+                android:onClick="ModuleThird"
+                android:text="3 | User Navigation" />
+
+            <Button
+            android:id="@+id/btn_topicD"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="start|center_vertical"
+            android:onClick="ModuleFourth"
+            android:text="4 | Drawables &amp; Styles" />
+
+            <Button
+                android:id="@+id/btn_topicE"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="start|center_vertical"
+                android:onClick="ModuleFifth"
+                android:text="5 | AsyncTask &amp; AsyncTaskLoader " />
+
+            <Button
+            android:id="@+id/btn_topicF"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="start|center_vertical"
+            android:onClick="ModuleSixth"
+            android:text="6 | Broadcast Receiver " />
+
+            <Button
+                android:id="@+id/btn_topicG"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="start|center_vertical"
+                android:onClick="ModuleSeventh"
+                android:text="7 | Notifications " />
+
+            <Button
+                android:id="@+id/btn_topicH"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="start|center_vertical"
+                android:onClick="ModuleEighth"
+                android:text="8 | Alarm Manager " />
+
+            <Button
+                android:id="@+id/btn_topicI"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="start|center_vertical"
+                android:onClick="ModuleNinth"
+                android:text="9 | Job Scheduler " />
+
+            <Button
+                android:id="@+id/btn_topicJ"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="start|center_vertical"
+                android:onClick="ModuleTenth"
+                android:text="10 | Room, LiveData, and ViewModel" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
