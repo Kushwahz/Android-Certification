@@ -33,8 +33,8 @@ Tracking my preparation for this certification - **[Associate Android Developer]
 - [X] Broadcast Reciever
 - [X] Notifications
 - [X] The Alarm Manager
-- [ ] JobScheduler
-- [ ] Shared Preferences
-- [ ] App Settings
-- [ ] Room, LiveData and ViewModel
-- [ ] Deleting data from a Room database
+- [X] JobScheduler
+- [X] Shared Preferences
+- [X] App Settings
+- [X] Room, LiveData and ViewModel
+- [X] Deleting data from a Room database
